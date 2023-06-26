@@ -1,32 +1,199 @@
+/* Landing page background color and the display photo */
 body{
-    background-color:#eea304;
-  text-align:left;
-  padding-top: 30%;
-  padding-left:30%;
-  padding-right:30%;
+  background-color:#eea304;
+  text-align: center;
 }
 
+/* div {
+  box-shadow: 10px 10px 5px 12px rgb(113, 11, 246);
+} */
+/* wrong * align-content: center;  */
+ /* align-content: 50%;
+ align-items: center;
+*/ 
 
+.Hello{
+  padding-left:auto;
+  padding-right:auto;
+  text-align: center;
+}
+/*  align-tracks: left;
+align-items
+align-content
+align-self */
+
+.Display_Photo{
+  border:10px solid #AE540B;
+  height: 340px;
+  width: 340px;
+  border-radius: 50%;
+  box-shadow:6px 12px 5px rgba(0, 0, 0, 0.6);
+  margin-left: auto;
+  margin-right: auto;
+  display:grid;
+}
+   /* padding-left:50%;
+   padding-right:50%; */
 
 #p1{
     font-family:Arial, Helvetica, sans-serif ;
-}
+    padding-top:2.5%;
+    padding-bottom:10%;
+    padding-left:30%;
+    padding-right:30%;
+    text-indent:10%;
+    text-align: left;
 
-font-face {
+  }
+/* padding-left: auto;
+    padding-right:auto; */
+    /* margin-left: auto;
+    margin-right:auto; */
+
+/* font-face {
     font-family: 'ReklameScript-Regular';
     src: url('grantsawyer/Library/Fonts/ReklameScript-Regular_DEMO.otf'); /* Replace 'path/to/your-font-file.ttf' with the actual path to your font file */
     /* You can also include other font formats like woff, woff2, eot, etc., for better browser compatibility */
-  }
+  /* } */
   
   /* Example usage */
-  body {
+  /* body {
     font-family: 'ReklameScript-Regular', sans-serif;
   }
 .my-element {
   font-family: 'ReklameScript-Regular', sans-serif;
+} */ 
+
+.button1{
+  background-color: #EE7202;
+  border: 1px solid black;
+  border-radius: 999px;
+  color: #000000;
+  text-align: center;
+  height: 138px;
+  width:138px;
+  font-size: 22px;
+  margin-right: 25px;
+  margin-left: 25px;
+  position:relative;
+  Top:-130px;
+  margin-bottom: -130px;
 }
+/* Index Button */
+
+.button2{
+  background-color:#daab80;
+  border: 1px solid black;
+  border-radius: 100%;
+  outline-width:10px;
+  color:#000000;
+  text-align: center;
+  height: 138px;
+  width:138px;
+  font-size: 22px;
+  margin-right: 25px;
+  margin-left: 25px;
+  position: relative;
+  Top:-130px;
+  margin-bottom: -130px;
+}
+/* Contact button */
+
+________________________________________
+
+/* Contact Page */
 
 #Contact{
     background-color:#eea304;
-   
+    
 }
+
+#p2{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif; margin-bottom: 60px;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #AE540B;
+  color: black;
+  padding: 12px 20px;
+  border: 1px solid black;
+  height: 138px;
+  width:138px;
+  font-size: 22px;
+  border-radius: 999px;
+  cursor: pointer;
+  
+}
+/* Submit button */
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 20px;
+  border: 5px solid #AE540B;
+  background-color: #EE7202;
+  padding: 20px;
+  height:756;
+  width:479px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.button4{
+  background-color: #EE7202;
+  border: 1px solid black;
+  border-radius: 999px;
+  color: #000000;
+  text-align: center;
+  height: 138px;
+  width:138px;
+  font-size: 22px;
+  margin-right: 25px;
+  margin-left: 25px;
+  position: relative;
+  Top:30px;
+  margin-bottom:30px;
+  bottom:10px;
+}
+/* Index Button */
+/* erasing the bottom does nothing */
+
+.button3{
+  background-color:#eea304 #EE7202;
+  border: 1px solid black;
+  border-radius: 999px;
+  
+  color:#000000;
+  text-align: center;
+  height: 138px;
+  width:138px;
+  font-size: 22px;
+  margin-right: 25px;
+  margin-left: 25px;
+  position: relative;
+  Top:30px;
+  margin-bottom: 30px;
+  bottom:10px;
+}
+/* Home Button */
+
+/* bottom: 130px; */
