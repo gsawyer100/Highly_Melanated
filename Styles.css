@@ -43,7 +43,7 @@ align-self */
     padding-right:30%;
     text-indent:10%;
     text-align: left;
-
+    position:relative;
   }
 /* padding-left: auto;
     padding-right:auto; */
@@ -80,6 +80,12 @@ align-self */
   margin-bottom: -130px;
 }
 /* Index Button */
+/* #didn't bring down the button */
+
+.button1:hover{
+  background-color: #45a049; 
+  cursor: pointer;
+  }
 
 .button2{
   background-color:#daab80;
@@ -98,6 +104,10 @@ align-self */
   margin-bottom: -130px;
 }
 /* Contact button */
+.button2:hover{
+background-color: #45a049; 
+cursor: pointer;
+}
 
 ________________________________________
 
@@ -169,7 +179,7 @@ input[type=submit]:hover {
   font-size: 22px;
   margin-right: 25px;
   margin-left: 25px;
-  position: relative;
+  position:relative;
   Top:30px;
   margin-bottom:30px;
   bottom:10px;
@@ -177,11 +187,15 @@ input[type=submit]:hover {
 /* Index Button */
 /* erasing the bottom does nothing */
 
+.button4:hover{
+background-color:#45a049;
+cursor: pointer;
+}
+
 .button3{
   background-color:#eea304 #EE7202;
   border: 1px solid black;
   border-radius: 999px;
-  
   color:#000000;
   text-align: center;
   height: 138px;
@@ -189,7 +203,7 @@ input[type=submit]:hover {
   font-size: 22px;
   margin-right: 25px;
   margin-left: 25px;
-  position: relative;
+  position:relative;
   Top:30px;
   margin-bottom: 30px;
   bottom:10px;
@@ -197,3 +211,8 @@ input[type=submit]:hover {
 /* Home Button */
 
 /* bottom: 130px; */
+
+.button3:hover{
+ background-color: #45a049; 
+ cursor: pointer;
+}
