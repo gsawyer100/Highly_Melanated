@@ -6,76 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Styles.css">
-    <link rel="Landing_Page" href="Home.html">
-    <link rel="Highly_Melanated_Black_Owned_Business_Index" href="script.js">
 </head>
 <body>
    
-        <div class="Contact">
-            <img src="Contact.png" alt="Contact_Page_Display_Font">
-        </div>
+    <div class="Contact">
+        <img src="Contact.png" alt="Contact_Page_Display_Font">
+    </div>
 
-        <p id="p2">
-            We look forward to hearing from you!
-        </p>
+    <p id="p2">
+        We look forward to hearing from you!
+    </p>
 
-        <p id="p3">
-            <b>
-            Email
-        </b>
-        </p>
+    <p id="p3">
+        <b>Email</b>
+    </p>
 
-        <p id="p4">
-          highlymelanated@gmail.com
-        </p>
+    <p id="p4">
+        highlymelanated@gmail.com
+    </p>
 
-   
     <div class="container">
         <form action="/action_page.php">
-          <label for="fname">
-            <b>
-            First Name
-        </b>
-        </label>
-          <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+            <label for="fname"><b>First Name</b></label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name..">
       
-          <label for="lname">
-            <b>
-            Last Name
-        </b>
-        </label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="lname"><b>Last Name</b></label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
       
-          <label for="Email">
-        <b>
-            Email
-        </b>
-        </label>
-        <input type="text" id="Email" name="Email" placeholder="Your email address..">
+            <label for="Email"><b>Email</b></label>
+            <input type="text" id="Email" name="Email" placeholder="Your email address..">
            
-        <label for="Subject">
-            <b>
-                Subject
-            </b>
-            </label>
+            <label for="Subject"><b>Subject</b></label>
             <input type="text" id="Subject" name="Subject" placeholder="Your subject..">
       
-         
-      <b>
-          <label for="Message">Message</label>
-          <textarea id="Message" name="Message" placeholder="Write your message.." style="height:200px"></textarea>
-        </b>
-          <input type="submit" value="Submit">
+            <b>
+                <label for="Message">Message</label>
+                <textarea id="Message" name="Message" placeholder="Write your message.." style="height:200px"></textarea>
+            </b>
+            <input type="submit" value="Submit">
         </form>
-      </div>
+    </div>
 
-    <button class="button3">
-      <a href="file:///Users/grantsawyer/Highly_Melanated/Home.html">Home</a></button>
-
-      <button class="button2">
-        <a href="https://docs.google.com/spreadsheets/d/1_4Ef8sYGWoqljqA1OBielTSJQKJf2iMtHaueHxasL-8/edit#gid=0"> Index</a></button>
-  
-  <!-- button id  didn't bring down the button-->
-
+    <div class="button-container">
+        <button class="button3" onclick="openLink('Home.html')" target="_blank" rel="opener" rel="noreferrer">Home</button>
+        <button class="button4" onclick="openLink('https://docs.google.com/spreadsheets/')" target="_blank" rel="opener" rel="noreferrer">Index</button>
+        
+       
+    <script src="script.js"></script>
+  </div>
 </body>
 </html>
