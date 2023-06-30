@@ -78,6 +78,7 @@ align-self */
   position:relative;
   Top:-130px;
   margin-bottom: -130px;
+  
 }
 /* Index Button */
 /* #didn't bring down the button */
@@ -88,7 +89,7 @@ align-self */
   }
 
 .button2{
-  background-color:#daab80;
+  background-color:#EE7202;
   border: 1px solid black;
   border-radius: 100%;
   outline-width:10px;
@@ -109,7 +110,50 @@ background-color: #45a049;
 cursor: pointer;
 }
 
-________________________________________
+
+.button1{
+  background-color:#daab80;
+  border: 1px solid black;
+  border-radius: 50%;
+  outline-width:10px;
+  color:#000000;
+  text-align: center;
+  height: 138px;
+  width:138px;
+  font-size: 22px;
+  margin-right: 25px;
+  margin-left: 25px;
+  position: relative;
+  Top:-130px;
+  margin-bottom: -130px;
+}
+_______
+
+
+
+.button2{
+  text-decoration: none;
+  background-color:#daab80;
+  border: 1px solid black;
+  border-radius: 50%;
+  outline-width:10px;
+  color:#000000;
+  text-align: center;
+  height:auto;
+  width:auto;
+  font-size: 22px;
+  margin-right: 25px;
+  margin-left: 25px;
+  position: relative;
+  Top:-130px;
+  margin-bottom: -130px;
+}
+
+
+
+
+
+__________________________
 
 /* Contact Page */
 
@@ -123,7 +167,7 @@ ________________________________________
 }
 
 
-body {font-family: Arial, Helvetica, sans-serif; margin-bottom: 60px;}
+body{font-family: Arial, Helvetica, sans-serif; margin-bottom: 60px;}
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
@@ -169,22 +213,23 @@ input[type=submit]:hover {
 
 
 .button4{
-  background-color: #EE7202;
+  background-color:#daab80;
   border: 1px solid black;
-  border-radius: 999px;
-  color: #000000;
+  border-radius: 100%;
+  outline-width:10px;
+  color:#000000;
   text-align: center;
   height: 138px;
   width:138px;
   font-size: 22px;
   margin-right: 25px;
   margin-left: 25px;
-  position:relative;
+  position: relative;
   Top:30px;
-  margin-bottom:30px;
+  margin-bottom: 30px;
   bottom:10px;
 }
-/* Index Button */
+/* Index Button on Contact Page*/
 /* erasing the bottom does nothing */
 
 .button4:hover{
@@ -216,3 +261,12 @@ cursor: pointer;
  background-color: #45a049; 
  cursor: pointer;
 }
+
+_____________________________________
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+
+
