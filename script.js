@@ -7,9 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
       const formData = new FormData(contactForm); // Collect form data
 
       const emailOptions = {
-          Host: "smtp.elasticemail.com",
-          Username: "highlymelanated.io@gmail.com",
-          Password: " 5C1EF1309BCF6EDE2A75BEFD1CE110E8CF2D",
+          Host: ?
+          Password: ?
           To: "highlymelanated.io@gmail.com",
           From: formData.get("Email"), // Get the email from the form
           Subject: formData.get("Subject"),
