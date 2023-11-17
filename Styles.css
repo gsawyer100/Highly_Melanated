@@ -1,16 +1,23 @@
 /* Landing page background color and the display photo */
-body {
+body{
   background-color: #eea304;
   text-align: center;
-  margin-bottom: 8%;
   bottom:10%;
+  margin-bottom: 40%;
+  
 }
+  /* margin-bottom: 8%; */
+
+
 
 .body2{
   margin-bottom: -8%;
   bottom:10%;
 }
 
+body > input{
+  align-items: left;
+}
 /* Page dimensions */
 
 /* div {
@@ -23,6 +30,7 @@ body {
 
 
 .Hello{
+
   padding-left:auto;
   padding-right:auto;
   text-align: center;
@@ -74,26 +82,31 @@ align-self */
 .my-element {
   font-family: 'ReklameScript-Regular', sans-serif;
 } */ 
-
+.button-container {
+  display: flex;
+  justify-content: center;
+  }
+  
 a.one{
-  text-decoration: none;
   background-color:#daab80;
+  text-decoration: none;
+  display:space-between;
   border: 1px solid black;
-  border-radius: 50%;
+  border-radius: 25px;
   color:#000000;
   text-align: center;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 55px;
-  padding-bottom: 55px;
-  height:138px;
-  width:138px;
+  padding-left: 0px;
+  padding-right:0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 140px;
+  width: 140px;
   font-size: 22px;
   margin-right: 25px;
   margin-left: 25px;
   position: relative;
-  Top:-25px;
-  
+  Top:-75px;
+  bottom:-30px;
 }
 
 a.one:hover{
@@ -106,25 +119,25 @@ a.one:hover{
 
 
 a.two{
-  text-decoration: none;
   background-color:#EE7202;
+  text-decoration: none;
+  display:inline-block;
   border: 1px solid black;
-  border-radius: 50%;
+  border-radius: 25px;
   color:#000000;
   text-align: center;
-  height: 138px;
-  width:138px;
+  padding-left: 0px;
+  padding-right:0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 140px;
+  width: 140px;
   font-size: 22px;
-  padding-left: 44.1px;
-  padding-right: 44.1px;
-  padding-top: 55px;
-  padding-bottom: 55px;
   margin-right: 25px;
   margin-left: 25px;
   position: relative;
-  Top:-25px;
- 
- position:-100px;
+  Top:-75px;
+  bottom:-30px;
   
 }
 
@@ -148,6 +161,7 @@ ___________________________________________
 
 body{font-family: Arial, Helvetica, sans-serif; margin-bottom: 8%;}
 * {box-sizing: border-box;}
+/* align-items: left; */
 
 input[type=text], select, textarea {
   width: 100%;
@@ -162,18 +176,28 @@ input[type=text], select, textarea {
 
 input[type=submit] {
   background-color: #AE540B;
-  color: black;
-  padding: 10px 20px;
+  text-decoration: none;
+  display:inline-block;
   border: 1px solid black;
-  height: 138px;
-  width:138px;
+  border-radius: 25px;
+  color:#000000;
+  text-align: center;
+  padding-left: 0px;
+  padding-right:0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 140px;
+  width: 140px;
   font-size: 22px;
-  border-radius: 999px;
+  margin-right: 25px;
+  margin-left: 25px;
+  position: relative;
   cursor: pointer;
+  justify-content: center;
   
 }
 /* Submit button */
-
+/* align-items: center; */
 
 input[type=submit]:hover {
   background-color: #45a049;
@@ -189,8 +213,12 @@ input[type=submit]:hover {
   margin-left:auto;
   margin-right:auto;
   margin-bottom: 50px;
+  text-align: left;
 }
 
+.Submit{
+text-align: center;
+}
 
 
 
@@ -213,24 +241,26 @@ input[type=submit]:hover {
 
 
 a.three{
-  text-decoration: none;
   background-color:#ffffff;
-  font-size: 22px;
+  text-decoration: none;
+  display:inline-block;
   border: 1px solid black;
-  border-radius: 100%;
-  outline-width:10px;
+  border-radius: 25px;
   color:#000000;
   text-align: center;
-  height: 138px;
-  width:138px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 55px;
-  padding-bottom: 55px;
+  padding-left: 0px;
+  padding-right:0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 140px;
+  width: 140px;
+  font-size: 22px;
   margin-right: 25px;
   margin-left: 25px;
-  margin-bottom: -30px;
-
+  position: relative;
+  Top:-30px;
+  bottom:-30px;
+ 
   /* margin-top: 30px; */
   /* bottom: 50px; */
   /* top: 30px; */
@@ -244,24 +274,25 @@ cursor: pointer;
 }
 
 a.four{
-  text-decoration: none;
   background-color:#daab80;
-  font-size: 22px;
+  text-decoration: none;
+  display:inline-block;
   border: 1px solid black;
-  border-radius: 100%;
-  outline-width:10px;
+  border-radius: 25px;
   color:#000000;
   text-align: center;
-  height: 138px;
-  width:138px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 55px;
-  padding-bottom: 55px;
+  padding-left: 0px;
+  padding-right:0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 140px;
+  width: 140px;
+  font-size: 22px;
   margin-right: 25px;
   margin-left: 25px;
-  margin-bottom:-100px;
- 
+  position: relative;
+  Top:-30px;
+  bottom:-30px;
   /* margin-top: 30px; */
   /* Top:30px; */
   /* bottom: 50px; */
@@ -276,7 +307,7 @@ a.four:hover{
 _____________________________________
 .button-container {
   display: flex;
-  align-items: center;
+  align-items: left;
   /* margin-top:-30px;
   margin-bottom: -30px; */
   padding-bottom: -50px;
